@@ -1,0 +1,13 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "Ponicode documentation",
+  "main": "index.js",
+  "scripts": {
+      "install": "bundle install",
+      "local": "bundle exec jekyll serve",
+      "// custompublish": "./scripts/publish.sh",
+  },
+  "author": "",
+  "license": "ISC"
+}

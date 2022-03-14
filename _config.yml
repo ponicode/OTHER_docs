@@ -1,0 +1,64 @@
+title: Ponicode
+email: your-email@example.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://jolly-lamarr-971ebf.netlify.app" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jekyllrb
+github_username:  jekyll
+logo: "/assets/images/site-logo.svg"
+sign_in_url: "https://app.ponicode.com/login"
+
+# Aux links for the upper right navigation
+# Docs and Sign IN are hard coded in _layouts/default.html
+aux_links:
+  "ABOUT":
+    - "https://www.ponicode.com/team"
+  "JOBS":
+    - "https://www.ponicode.com/team"
+  "BLOG":
+    - "https://www.ponicode.com/blog"
+
+
+# Build settings
+#theme: minima
+theme: just-the-docs
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+# Define Jekyll collections
+collections:
+  # Define a collection named "docs", its documents reside in the "_docs" directory
+  docs:
+    permalink: "/:collection/:path/"
+    output: true
+
+just_the_docs:
+  # Define which collections are used in just-the-docs
+  collections:
+    # Reference the "docs" collection
+    docs:
+      # Give the collection a name
+      name: Documentation
+      # Exclude the collection from the navigation
+      # Supports true or false (default)
+      nav_exclude: false
+      # Exclude the collection from the search
+      # Supports true or false (default)
+      search_exclude: false
+

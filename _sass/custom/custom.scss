@@ -1,0 +1,41 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: inherit;
+    line-height: $body-line-height;
+    color: $body-text-color;
+    background-color: $body-background-color;
+  }
+
+.aux-nav-list .aux-nav-list-item {
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.main-content {
+  h1, h2, h3, h4, h5, h6 {
+    color: #17a2b8 !important;
+    font-weight: bold !important;
+  }
+}
+
+.main-content {
+  h1 {
+    color: #0F1245 !important;
+  }
+}
+
+a {
+  color: #17a2b8 !important;
+}
+
+.site-nav {
+  a {
+    color: #0F1245 !important;
+  }
+}
+
+blockquote {
+  border-left: 4px solid #17a2b8;
+  padding: 10px;
+}
