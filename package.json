@@ -1,13 +1,14 @@
 {
-  "name": "docs",
-  "version": "1.0.0",
-  "description": "Ponicode documentation",
-  "main": "index.js",
-  "scripts": {
-      "install": "bundle install",
-      "local": "bundle exec jekyll serve",
-      "// custompublish": "./scripts/publish.sh"
-  },
-  "author": "",
-  "license": "ISC"
+	"name": "githubio",
+	"version": "1.1.10",
+	"description": "Ponicode user documentation",
+	"private": true,
+	"directories": {
+		"doc": "docs"
+	},
+	"scripts": {
+		"// custompublish": "./scripts/publish.sh",
+		"// local": "jekyll serve"
+	},
+	"author": "Ponicode Team <ping@ponicode.com>"
 }
