@@ -6,17 +6,19 @@ nav_order: 2
 grand_parent: The Ponicode VSCode extension
 has_children: false
 has_toc: false
+youtubeManualUT: DNa01d1p7Vs
+youtubeFirstUT: nvn7XM9fiGU
 ---
 # Creating your first unit test in the Ponicode Interface
 
-Ponicode interface is composed of 2 sections:
+Ponicode Interface is composed of 2 sections:
 
 - **Unit tests**: Shows test cases of your test file
 - **Suggestions**: Suggestions provided by Ponicode AI for useful test cases
 
 You can create unit tests from these two sections.
 
-#### Using AI-generated suggestions
+## Using AI-generated suggestions
 
 Creating unit test with the help of our AI is super simple:
 
@@ -34,7 +36,7 @@ And voilà! You can see the suggestion added to your list of units tests, and yo
     <img src="/docs/vscode_extension/gui_test/images/suggestion_added.png" alt="ponicode_decorator" width="550"/>
 </p>
 
-#### Adding a test manually
+## Adding a test manually
 
 However, if you want to test your function with specific parameters, you can write your own tests too only with the value you want (we'll do the rest promise)
 
@@ -52,11 +54,16 @@ After that, you can write the wanted value(s) in the input cell, as shown in the
 
 When you're done, you'll see the value in the cell.
 
+{% include youtubePlayer.html id=page.youtubeManualUT %}
+
 And voilà! Check out your freshly generated test by clicking on the file in the top right corner!
 
-<p align="center">
-    <img src="/docs/vscode_extension/gui_test/images/test_case_added.png" alt="ponicode_decorator" width="550"/>
-</p>
+<!-- TODO: IMAGE OF TEST FILE MISSING -->
+
+## Unit Test generation in action
+
+{% include youtubePlayer.html id=page.youtubeFirstUT %}
+
 
 <div align="right">
     <a href="/docs/vscode_extension/gui_test/unitTests" >

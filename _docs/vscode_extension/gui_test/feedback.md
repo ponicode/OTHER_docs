@@ -10,7 +10,7 @@ has_toc: false
 
 # Sending us feedback
 
-If you want to contact us with a problem or comment about the Ponicode extension, click on the bubble ( <i class="far fa-comment-dots" style="color:blue"></i> ) button in the Ponicode Interface. It will open a new page which you can use to send us your feedback.
+If you want to contact us with a problem or comment about the Ponicode extension, click on the bubble ( <i class="fa fa-comment-dots" style="color:orange"></i> ) button in the Ponicode Interface. It will open a new page which you can use to send us your feedback.
 
 <p align="center">
     <img src="/docs/vscode_extension/gui_test/images/feedback_1.png" alt="feedback_button" width="650"/>

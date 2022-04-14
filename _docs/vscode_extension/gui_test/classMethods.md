@@ -6,19 +6,24 @@ nav_order: 6
 grand_parent: The Ponicode VSCode extension
 has_children: false
 has_toc: false
+youtubeId: 8j-PxIFWJPg
 ---
 
 # Class Methods
 
 Ponicode Unit Text Extension supports generating unit tests for method.
 
-#### Steps
+### Steps
 1. Identify a method you want to test
 2. Ensure that there is a Pony icon on its left
 3. Click on the decorator *"Ponicode Unit Test"*
 4. Select the relevant test cases and modify the initialization in the **Before each** section
 
-#### Example
+You can also make assertions on the properties of the instance itself:
+
+{% include youtubePlayer.html id=page.youtubeId %}
+
+### Example
 
 ```javascript
 export class Requestor {
@@ -67,7 +72,7 @@ export class Requestor {
 }
 ```
 
-A `Requestor` class object is available. Right-click on the `get_post_response` method and select *"Ponicode: Unit Test"*. The Ponicode Webview on the right contains a new section named **Before each**
+A `Requestor` class object is available. Right-click on the `get_post_response` method and select *"Ponicode: Unit Test"*. The Ponicode Interface on the right contains a new section named **Before each**.
 
 <p align="center">
     <img src="/docs/vscode_extension/gui_test/images/methods_1.png" alt="before_each" width="700"/>

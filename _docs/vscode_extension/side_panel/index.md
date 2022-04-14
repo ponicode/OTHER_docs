@@ -30,5 +30,5 @@ If you are working on a large workspace, you might not want Ponicode to parse th
 
 **2.  Help and Feedback**
 
-This section is your go-to place for all actions that take you outside your IDE. Use it to join the Slack community, send us feedback, or tweet about us. Or for a quick link to this documentation! 
+This section is your go-to place for all actions that take you outside your IDE. Use it to join the Slack community, send us feedback, tweet about us, or for a quick link to this documentation! 
 

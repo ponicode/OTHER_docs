@@ -26,7 +26,7 @@ If you are struggling with the previous options you can use the VS Code command 
 >
 > Visual Studio Code (version 1.37.1) or above is required to install the Ponicode extension.
 >
-> No matter the language you wish to test our extension on, node **version 14 (recommended) or 12** is required. [Click here to download node](https://nodejs.org/en/)
+> No matter the language you wish to test our extension on, **Node version 14 (recommended) or above** is required. [Click here to download node](https://nodejs.org/en/)
 >
 
 #### Login and activate

@@ -6,6 +6,7 @@ nav_order: 9
 grand_parent: The Ponicode VSCode extension
 has_children: false
 has_toc: false
+youtubeId: AYtVGDammg0
 ---
 
 # Curried functions
@@ -22,7 +23,9 @@ function sum(a) {
 }
 ```
 
-#### Testing curried functions with Ponicode
+## Testing curried functions with Ponicode
+
+{% include youtubePlayer.html id=page.youtubeId %}
 
 Curried input parameters do not appear by default when opening the Ponicode interface. 
 For instance, when opening the Ponicode GUI on the function `sum`, a single input parameter column will be present, corresponding to the first parameter `a`.
@@ -34,7 +37,7 @@ For instance, when opening the Ponicode GUI on the function `sum`, a single inpu
 In order to add a column for one (or multiple) curried parameters, open the **input column selector** by clicking on the cog icon [⚙] to the right of the *inputs* title.
 
 <p align="center">
-    <img src="/docs/vscode_extension/gui_test/images/curry_column_selector.png" alt="input-column-selector" width="500"/>
+    <img src="/docs/vscode_extension/gui_test/images/curry_column_selector.png" alt="input-column-selector" width="400"/>
 </p>
 
 The column for the new curried parameter will appear in green (different from blue, used for standard parameters). 
@@ -56,7 +59,7 @@ You can add more than one curried parameters, but all of them will be considered
 sum(2)(8, 13)
 ```
 
-#### AI Suggestions
+## AI Suggestions
 
 For the moment, Ponicode only suggest meaningful input values for the arguments of the "parent" function. Value suggestions for the curried arguments are always `undefined`, but you can manually modify them to fit your needs.
 
@@ -64,9 +67,9 @@ For the moment, Ponicode only suggest meaningful input values for the arguments 
     <img src="/docs/vscode_extension/gui_test/images/curry_suggestions.png" alt="input-column-selector" width="650"/>
 </p>
 
-#### Limitations
+## Limitations
 
-Today, Ponicode only supports one level of arument currying.
+Today, Ponicode only supports one level of argument currying.
 
 This means that Ponicode allows testing a function that is called in the following way:
 ```javascript

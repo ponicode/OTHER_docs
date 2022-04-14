@@ -52,7 +52,7 @@ For example, you can write this kind of value in a cell:
     "dateOfBirth": new Date("31/02/1990"),
     "employed": true,
     "married": undefined,
-    "doSomething: () => 42
+    "doSomething": () => 42
 }
 ```
 
