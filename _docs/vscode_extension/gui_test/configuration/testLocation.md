@@ -14,7 +14,7 @@ Ponicode allows configuring where your unit tests are written.
 
 To change the settings, open your preferences (<kbd>cmd</kbd> on MacOS or <kbd>ctrl</kbd>+ <kbd> , </kbd>), then type in the search bar _"Ponicode test location"_.
 
-Alternatively, you can open the settings directly from your Ponicode interface, by clicking on the <i class="fas fa-cog" style="color:blue"></i>`Test settings (gear icon)` on the top right corner.
+Alternatively, you can open the settings directly from your Ponicode interface, by clicking on the <i class="fa fa-cog" style="color:blue"></i> `Test settings (gear icon)` on the top right corner.
 
 <p align="center">
     <img src="/docs/vscode_extension/gui_test/configuration/images/test_location_1.png" alt="test_settings_icon" width="750"/>
@@ -22,7 +22,7 @@ Alternatively, you can open the settings directly from your Ponicode interface, 
 
 Two fields can be modified: `Test Location: Location Type` and `Test Location: Path`. Each of them can be configured by `User` or `Workspace`.
 
-#### User or workspace?
+### User or workspace?
 
 You have a choice to configure your settings by `User` or `Workspace`, please only use workspace when changing Ponicode related settings.
 
@@ -30,7 +30,7 @@ You have a choice to configure your settings by `User` or `Workspace`, please on
     <img src="/docs/vscode_extension/gui_test/configuration/images/test_location_2.png" alt="test_settings_icon" width="750"/>
 </p>
 
-##### Test Location: Location Type
+### Test Location: Location Type
 
 This field can take one of the following three values:
 
@@ -42,9 +42,9 @@ This field can take one of the following three values:
     <img src="/docs/vscode_extension/gui_test/configuration/images/test_location_3.png" alt="Test Location: Location Type section" width="650"/>
 </p>
 
-`Same path as source file` and `In folder __tests__ at workspace root` are the two options recommended by Ponicode, and there are associated with strict Test location paths. If you want to customise your path, just select `Custom` and adjust the path as you like.
+`Same path as source file` and `In folder __tests__ at workspace root` are the two options recommended by Ponicode, and there are associated with strict Test location paths. If you want to customize your path, just select `Custom` and adjust the path as you like.
 
-##### Test Location: Path
+### Test Location: Path
 
 The following keywords can be used to defined the path:
 

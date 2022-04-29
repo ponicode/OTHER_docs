@@ -6,7 +6,9 @@ nav_order: 1
 grand_parent: The Ponicode VSCode extension
 has_children: false
 has_toc: false
+youtubeId: Q3OO7hPZNR0
 ---
+
 # Opening the Ponicode interface
 
 Look for any `Javascript`, `Typescript` or `Python` function with a Ponicode icon to its left.
@@ -29,9 +31,13 @@ You can also open the interface by selecting a function and typing `⌘ + T` or 
 
 Finally you can right click on the function you want to test, and select `Ponicode: Unit test` to open the interface.
 
-<p align="center">
-    <img src="/docs/vscode_extension/gui_test/images/ponicode_unit_test.png" alt="right-click" width="700"/>
-</p>
+<!-- <p align="center">
+   <img src="/docs/vscode_extension/gui_test/images/ponicode_unit_test.png" alt="right-click" width="700"/>
+</p> -->
+
+## Example
+
+{% include youtubePlayer.html id=page.youtubeId %}
 
 <div align="right">
     <a href="/docs/vscode_extension/gui_test/firstUtGUI" >

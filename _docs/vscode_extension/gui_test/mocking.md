@@ -6,6 +6,7 @@ nav_order: 7
 grand_parent: The Ponicode VSCode extension
 has_children: false
 has_toc: false
+youtubeId: fB14LNRZRIQ
 ---
 
 # Mocking (stubs and spies)
@@ -37,6 +38,11 @@ Similarly, enter in the the column `calledWithh` an array with the values that t
 <p align="center">
     <img src="/docs/vscode_extension/gui_test/images/mocking_value.png" width="600"/>
 </p>
+
+## Mocking in action
+
+{% include youtubePlayer.html id=page.youtubeId %}
+
 
 ## Mocking user-defined functions
 

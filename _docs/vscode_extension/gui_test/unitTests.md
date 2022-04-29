@@ -21,7 +21,7 @@ You can add a new test case manually by clicking on the blue icon at the bottom 
     <img src="/docs/vscode_extension/gui_test/images/running_test_case.png" alt="Test suggestions" width="600"/>
 </p>
 
-You can also add test cases chosen from the selection of suggestions proposed to you by the Ponicode AI. Simply click on the <i class="fas fa-plus" style="color:green"></i>`Plus` button on the right hand side of each test case row.
+You can also add test cases chosen from the selection of suggestions proposed to you by the Ponicode AI. Simply click on the <i class="fa fa-plus" style="color:green"></i> `Plus` button on the right hand side of each test case row.
 
 <p align="center">
     <img src="/docs/vscode_extension/gui_test/images/suggestions_2.png" alt="Adding test suggestions" width="600"/>
@@ -32,7 +32,7 @@ All input and outputs values are editable cells. You can complete or overwrite t
 
 ## Removing Test Cases
 
-To remove a test case, simply click on the <i class="fas fa-trash-alt" style="color:gray"></i>`Bin` icon at the right side of the test case row.
+To remove a test case, simply click on the <i class="fa fa-trash-alt" style="color:gray"></i> `Bin` icon at the right side of the test case row.
 
 <p align="center">
     <img src="/docs/vscode_extension/gui_test/images/suggestions_3.png" alt="Removing test suggestions" width="600"/>

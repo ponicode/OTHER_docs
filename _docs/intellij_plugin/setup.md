@@ -1,13 +1,14 @@
 ---
 layout: default
-title: Set up
+title: Set Up
 nav_order: 1
 parent: Ponicode IntelliJ Plugin
 has_children: false
 has_toc: false
 ---
 
-#### Installation
+# Set Up your IntelliJ Plugin
+### Installation
 
 You can install the Ponicode IntelliJ extension directly from the [**JetBrains marketplace**][extension].
 
@@ -15,13 +16,13 @@ You can install the Ponicode IntelliJ extension directly from the [**JetBrains m
     <img src="/docs/intellij_plugin/images/ponicode-mktplace.png" alt="Ponicode on the JetBrains Marketplace" width="700"/>
 </p>
 
-#### Login
+### Login
 
 > **<span style="color:green">NOTE<span>**
 >
 > Note that the intellij plugin uses the same authentification than [Ponicode CLI](/docs/cli/index/), so if you are already logged in on Ponicode CLI, you can skip this step
 
-Once you have installed the extension you won't be able to use the ponicode features as long as you haven't logged in to our service. But don't worry it's pretty easy. Normally in the few seconds that follows the installation you should see a balloon notification telling you you are not logged, you just have to click the **Log In** button inside the popup to be redirected to our authentification platform.
+Once you have installed the extension you won't be able to use the Ponicode features as long as you haven't logged in to our service. But don't worry it's pretty easy. Normally in the few seconds that follows the installation you should see a balloon notification telling you you are not logged, you just have to click the **Log In** button inside the popup to be redirected to our authentification platform.
 
 <p align="center">
     <img src="/docs/intellij_plugin/images/login-popup.png" alt="Ponicode on the JetBrains Marketplace" width="400"/>

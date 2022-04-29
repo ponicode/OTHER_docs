@@ -9,9 +9,9 @@ has_toc: false
 
 # Supported Technologies 
 
-## IDEs
+## VS Code
 
-Today, Ponicode is available exclusively in **Visual Studio Code** (version 1.37.1 or above).
+The Ponicode VS Code extension is compatible with **Visual Studio Code** version `1.37.1` or above.
 
 <p align="center">
     <img src="/docs/vscode_extension/supported_technologies/images/vs_code.png" alt="input-column-selector" width="40"/>

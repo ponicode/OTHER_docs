@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Supported
+title: Supported Technologies
 nav_order: 3
 parent: Ponicode IntelliJ Plugin
 has_children: false
@@ -9,9 +9,9 @@ has_toc: false
 
 # Supported technologies
 
-### Project management tool
+### Java build tools
 
-Today, ponicode works only with projects that use **Maven** as their project management tool (version 3.x.x).
+Today, Ponicode works only with projects that use **Maven** as their project management tool (version 3.x.x).
 
 <p align="center">
     <img src="/docs/intellij_plugin/images/maven-logo.png" alt="input-column-selector" width="160"/>
@@ -19,7 +19,7 @@ Today, ponicode works only with projects that use **Maven** as their project man
 
 You can install Ponicode directly from [the marketplace](https://plugins.jetbrains.com/plugin/17980-ponicode) or install it directly from within your IDE. For more information about how to install and setup Ponicode, check out our dedicated documentation page on how to [Get Started](/docs/intellij_plugin/setup)
 
-### Test framework
+### Test frameworks
 
 Ponicode now generates tests in the tests that uses the test **JUnit5** test framework.
 
