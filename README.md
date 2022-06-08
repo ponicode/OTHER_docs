@@ -31,4 +31,4 @@ The CCI Workflow `deploy_preprod` copies the content of this repo into [OTHER_do
 
 Deployment on [docs.ponicode.com](https://docs.ponicode.com) is triggered by any push on `master` in the repository [OTHER_docs](https://github.com/ponicode/OTHER_docs).
 
-The CCI Workflow `deploy_prod` copies the content of this repo into [OTHER_docs](https://github.com/ponicode/OTHER_docs) (`master` branch), thus triggering deployment.
+The CCI Workflow `deploy_prod` copies the content of this repo into [OTHER_docs](https://github.com/ponicode/OTHER_docs) (`master` branch), thus triggering deployment
