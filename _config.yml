@@ -19,7 +19,7 @@ aux_links:
   "JOBS":
     - "https://www.ponicode.com/team"
   "BLOG":
-    - "https://www.ponicode.com/blog"
+    - "https://docs.ponicode.com/blog"
 
 
 # Build settings
